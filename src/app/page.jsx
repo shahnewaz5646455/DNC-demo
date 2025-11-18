@@ -9,6 +9,7 @@ import OfferSlider from "@/components/OfferSlider";
 import OfferSlider2 from "@/components/OfferSlider2";
 import ProductShow from "@/components/ProductShow";
 import OfferProduct from "@/components/OfferProduct";
+import Auction from "@/components/Auction";
 
 export default function Home() {
   return (
@@ -57,6 +58,9 @@ export default function Home() {
           );
         })}
       </div>
+
+
+      <Auction></Auction>
     </div>
   );
 }

@@ -34,7 +34,7 @@ const Slider1 = () => {
         el: ".swiper-pagination-custom",
         clickable: true,
       }}
-      className=" rounded-0 xl:rounded-[24px]  w-full h-full "
+      className="cursor-pointer rounded-0 xl:rounded-[24px]  w-full h-full "
     >
       <SwiperSlide>
         <Image src={offerimg} alt="" className=" w-full  h-full"></Image>
@@ -88,7 +88,7 @@ const Slider2 = () => {
         }}
         modules={[Pagination, Navigation]}
         slidesPerView={2}
-        spaceBetween={8}
+        spaceBetween={20}
         pagination={{
           el: ".swiper-pagination-slider2",
           clickable: true,
@@ -113,10 +113,10 @@ const Slider2 = () => {
 
 const Card = () => {
   return (
-    <div className="relative  flex justify-center">
+    <div className="relative cursor-pointer max-w-[318px] w-full flex justify-center">
       <Image className="w-full" src={jaket} alt="image"></Image>
 
-      <div className=" absolute bottom-[9.39%] bg-[linear-gradient(180deg,#FF6B35_0%,#FF0080_100%)] flex items-center justify-center px-[18px] sm:px-[35px] py-[3px] rounded-2xl">
+      <div className=" absolute bottom-[9.39%] bg-[linear-gradient(180deg,#FF6B35_0%,#FF0080_100%)] flex items-center justify-center px-[18px] sm:px-[35px] xl:px-[18px] 2xl:px-[35px] py-[3px] rounded-2xl">
         <p className="text-[16px] sm:text-[19px] text-white font-semibold">৳500.00</p>
       </div>
     </div>

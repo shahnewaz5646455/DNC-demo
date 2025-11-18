@@ -3,7 +3,7 @@ import React from "react";
 import cardimg from "../Asset/cardimg.png";
 import star from "../Asset/staricon.png";
 import shipingcar from "../Asset/shipping-fast 1.svg";
-import fire from "../Asset/fire.png";
+import fire from "../Asset/fire.svg";
 
 export default function Card() {
   return (
@@ -12,8 +12,8 @@ export default function Card() {
         <Image src={cardimg} className="w-full" alt="img" />
       </div>
       <div className="flex  p-[6px] xl:p-[12px] flex-col gap-1 xl:gap-[12px]">
-        <div className="bg-[#c7e1fb] flex items-center max-w-[139px] w-full  rounded-[8px] px-2">
-          <span className="whitespace-nowrap text-[12px]">
+        <div className="bg-[#c7e1fb] flex items-center max-w-[120px] md:max-w-[139px] w-full  rounded-[8px] px-2">
+          <span className="whitespace-nowrap text-[10px] md:text-[12px]">
             Mobile & Accessories
           </span>
         </div>
