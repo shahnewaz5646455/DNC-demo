@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex items-center md:items-start flex-col gap-4 xl:flex-row  2xl:gap-[92px]">
             <Titles ></Titles>
           
-          <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4    2xl:gap-[143px] w-full">
+          <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4     w-full ">
             <FooterLinks></FooterLinks>
             <FooterLinks></FooterLinks>
             <FooterLinks></FooterLinks>
