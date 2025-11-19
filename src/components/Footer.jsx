@@ -12,11 +12,11 @@ import payment3 from "../Asset/payment3.svg";
 import payment4 from "../Asset/payment4.svg";
 import payment5 from "../Asset/payment5.svg";
 import payment6 from "../Asset/payment6.svg";
-import footerbg from "../Asset/Footer.png";
+import footerbg from "../Asset/Footer.jpg";
 
 export default function Footer() {
   return (
-    <footer className="bg-[url('../Asset/Footer.png')] bg-cover bg-center bg-no-repeat w-full " >
+    <footer className="bg-[url('../Asset/Footer.jpg')] bg-cover bg-center bg-no-repeat w-full " >
       <div className="  pt-[40px] md:pt-[40px] xl:pt-[80px] 2xl:mt-[106px] pb-[45px]  container mx-auto px-4 sm:px-6 md:px-8 2xl:px-0">
         <div className="flex items-center md:items-start flex-col gap-4 xl:flex-row  2xl:gap-[92px]">
             <Titles ></Titles>
